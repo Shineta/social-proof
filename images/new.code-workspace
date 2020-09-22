@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "social-proof",
+		"path": ".."
+	},
+	{
+		"name": "design",
+		"path": "..\\..\\..\\..\\..\\Downloads\\social-proof-section-master\\social-proof-section-master\\design"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "social-proof"
+  }
+}

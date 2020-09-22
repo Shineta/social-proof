@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  /* background-color: lightblue; */
+  background-image: url(/images/bg-pattern-top-desktop.svg);
+  background-image: url(/images/bg-pattern-bottom-desktop.svg);
+  padding: 20rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h1 {
+  color: rgb(73, 27, 67);
+  font-size: 4rem;
+  font-family: "Spartan", sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  padding-top: 1rem;
+}
+.textContainer {
+  background-color: rgba(240, 128, 128, 0);
+  flex: 1;
+  flex-basis: 50%;
+}
+.starIcon img {
+  height: 2rem;
+}
+
+.rating {
+  color: rgb(73, 27, 67);
+  font-family: "Spartan", sans-serif;
+  align-items: center;
+  background-color: rgba(216, 198, 216, 0.781);
+  border-radius: 1rem;
+  padding: 1rem;
+  max-width: 75%;
+  display: flex;
+  padding-left: 2rem;
+}
+.rating p {
+  color: rgb(73, 27, 67);
+  font-family: "Spartan", sans-serif;
+  padding-left: 3rem;
+}
+
+.rating1 {
+  align-self: flex-start;
+  padding-right: 6rem;
+}
+.rating2 {
+  align-self: center;
+  padding-right: 6rem;
+}
+
+.rating3 {
+  align-self: flex-end;
+  padding-right: 6rem;
+}
+
+.starContainer {
+  /* background-color: lightgreen; */
+  flex: 1;
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cardContainer {
+  background-color: rgba(255, 255, 224, 0);
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: rgb(73, 27, 67);
+  height: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  border-radius: 3%;
+  margin: 1rem;
+  color: white;
+  padding: 2.5em;
+  padding-bottom: 5rem;
+}
+/* 
+@media (min-width: 25%) {
+  .card {
+    flex-wrap: wrap;
+  }
+} */
+
+.card p {
+  font-size: 1rem;
+  padding-top: 1.5rem;
+}
+
+.card1 {
+  margin-left: 0;
+  flex-basis: 30rem;
+}
+
+.card2 {
+  margin-top: 2rem;
+  /* min-width: 20rem;
+  max-width: 30rem; */
+  flex-basis: 30rem;
+}
+
+.card3 {
+  margin-top: 3rem;
+  margin-right: 0;
+  flex-basis: 30rem;
+}
+.header {
+  margin-left: 2rem;
+  font-family: sans-serif;
+}
+.header p {
+  padding-top: 0;
+  color: rgb(170, 22, 150);
+}
+
+.img {
+  height: 5rem;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+}
